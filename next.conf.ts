@@ -8,11 +8,11 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: "host",
-            value: "cloudquantum.ci",
+            value: "cloudquantum.cloud",
           },
         ],
         permanent: true,
-        destination: "https://cloudquantum.ci/:path*",
+        destination: "https://cloudquantum.cloud/:path*",
       },
     ];
   },
